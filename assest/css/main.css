@@ -1,0 +1,156 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: color-grey-2;
+    position: relative;
+    font-family: "Source Sans Pro", sans-serif;
+  }
+
+  body label {
+    font-weight: 600;
+  }
+
+  body .form-control:focus {
+    border: 1px solid rgb(82, 82, 82);
+    box-shadow: 0 0 0 0.2rem rgba(60, 66, 71, 0.25);
+  }
+
+  body .error {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: red;
+  }
+  
+  body .index-content .index-left {
+    position: relative;
+    background: #212124;
+    height: 100vh;
+  }
+
+  body .index-content .index-left span {
+    font-size: 7rem;
+    margin-top: 20px;
+    font-weight: 800;
+    color: #d7d7d7;
+  }
+
+  body .index-content .index-left .index-img-left:hover a {
+    transform: scaleY(-150px);
+  }
+
+  body .index-content .index-left .index-img-left a {
+    max-width: 400px;
+    position: absolute;
+    top:  35%;
+    left: 23%;
+    padding: 20px;
+    background: #f5f5f7;
+    border-radius: 30px;
+    box-shadow: 0 0.2rem 0.5rem 0.2rem rgba(190, 189, 189, 0.5);
+    transition: all 0.5s;
+  }
+
+  body .index-content .index-left .index-img-left a:hover {
+    transform: translateY(-50px);
+  }
+
+  body .index-content .index-right {
+    position: relative;
+    background: #f5f5f7;
+    height: 100vh;
+  }
+
+  body .index-content .index-right span {
+    font-size: 7rem;
+    margin-top: 20px;
+    font-weight: 800;
+    color: #212124;
+  }
+
+  body .index-content .index-right .index-img-right:hover a {
+    transform: scaleY(-100px);
+  }
+
+  body .index-content .index-right .index-img-right a {
+    max-width: 400px;
+    position: absolute;
+    top: 35%;
+    left: 23%;
+    padding: 20px;
+    background: #212124;
+    border-radius: 30px;
+    box-shadow: 0 0.2rem 0.5rem 0.2rem rgba(6, 6, 6, 0.5);
+    transition: all 0.5s;
+  }
+
+  body .index-content .index-right .index-img-right a:hover {
+    transform: translateY(-50px);
+  }
+  
+  @media screen and (max-width: 992px) {
+    body .index-content .index-right span {
+      font-size: 5rem;
+    }
+    body .index-content .index-left .index-img-left a {
+      max-width: 300px;
+      top: 30%;
+      left: 20%;
+    }
+    body .index-content .index-right .index-img-right a {
+      max-width: 300px;
+      top: 30%;
+      left: 20%;
+    }
+    body .index-content .index-left span {
+      font-size: 5rem;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    body .index-content .index-left {
+      height: 80vh;
+    }
+    body .index-content .index-left span {
+      font-size: 4rem;
+    }
+    body .index-content .index-left .index-img-left a {
+      max-width: 300px;
+      top: 32%;
+      left: 30%;
+    }
+    body .index-content .index-right span {
+      font-size: 4rem;
+    }
+    body .index-content .index-right {
+      height: 80vh;
+    }
+    body .index-content .index-right .index-img-right a {
+      max-width: 300px;
+      top: 32%;
+      left: 30%;
+    }
+  }
+  @media screen and (max-width: 576px) {
+    body .index-content .index-left {
+      height: 40vh;
+    }
+    body .index-content .index-left span {
+      font-size: 2rem;
+    }
+    body .index-content .index-left .index-img-left a {
+      max-width: 150px;
+      top: 32%;
+      left: 30%;
+    }
+    body .index-content .index-right {
+      height: 40vh;
+    }
+    body .index-content .index-right span {
+      font-size: 2rem;
+    }
+    body .index-content .index-right .index-img-right a {
+      max-width: 150px;
+      top: 32%;
+      left: 30%;
+    }
+  }
