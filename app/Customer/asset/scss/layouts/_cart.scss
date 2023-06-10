@@ -1,0 +1,43 @@
+  .modal-body {
+    #tongTien{
+        color: #ff0000c4;
+        font-size: 20px;
+    }
+      .madia-left {
+          border: 1px solid;
+          border-radius: 10px;
+          overflow: hidden;
+          margin-bottom: 20px;
+
+          .remove-cartItem {
+              position: relative;
+              right: 5%;
+              top: 40px;
+              font-size: 30px;
+              transition: all 0.5s;
+              cursor: pointer;
+
+              &:hover {
+                  color: red;
+              }
+          }
+      }
+
+      .cartUI {
+          border: 1px solid black;
+          border-radius: 10px;
+      }
+
+      .slCart {
+          input {
+              padding: 10px;
+              margin: 10px;
+              border: 1px solid;
+              border-radius: 10px;
+              max-width: 100px;
+          }
+          span{
+            font-size: 20px;
+          }
+      }
+  }

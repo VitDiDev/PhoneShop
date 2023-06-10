@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1300px !important;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  opacity: 0.7;
+  background-color: #080808;
+}
+header .navbar-brand {
+  color: white !important;
+  font-size: 30px;
+}
+header .nav-link {
+  color: white !important;
+  font-size: 25px;
+  margin-right: 20px;
+}
+header .fa-cart-shopping {
+  line-height: 40px;
+  color: white;
+  font-size: 30px;
+}
+header .navbar-nav {
+  text-align: center;
+}
+header .navbar-nav li {
+  cursor: pointer;
+}
+header .nav-item .CartShop {
+  border-radius: 10px;
+  border: 1px solid rgba(127, 255, 212, 0.3019607843);
+}
+header .nav-item .CartShop .text__cart {
+  position: relative;
+  font-size: 29px;
+  left: 15px;
+  top: -4px;
+}
+header .nav-item span {
+  position: relative;
+  padding: 1px 9px;
+  top: -17px;
+  left: 50px;
+  z-index: 1;
+  border-radius: 50%;
+  font-size: 18px;
+}
+header .nav-item #quantity {
+  color: red !important;
+}
+
+.product {
+  padding: 100px 0;
+}
+.product #selectBrand {
+  padding: 5px 50px;
+  border-radius: 5px;
+}
+.product .card {
+  transform: translateY(0);
+  transition: all 0.5s;
+  cursor: pointer;
+  line-height: auto;
+}
+.product .card .card__header__img {
+  width: 100%;
+  transition: all 0.5s;
+  margin-top: 20px;
+}
+.product .card .card__header__img:hover {
+  transform: translateY(-20px);
+}
+.product .card .card-body .card-body-left p:hover, .product .card .card-body .card-body-left h5:hover {
+  color: rgba(213, 86, 38, 0.5215686275);
+}
+.product .card-footer:hover {
+  box-shadow: inset 2px 3px 4px rgba(0, 0, 0, 0.3803921569);
+}
+
+.before__header {
+  max-height: 30px;
+  line-height: 30px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 10;
+}
+.before__header .bh__right ul {
+  list-style-type: none;
+}
+.before__header .bh__right li > a {
+  color: white;
+  padding: 0 15px;
+  text-decoration: none;
+}
+.before__header .bh__right .contact span {
+  padding: 0 10px;
+}
+
+.modal-body #tongTien {
+  color: rgba(255, 0, 0, 0.768627451);
+  font-size: 20px;
+}
+.modal-body .madia-left {
+  border: 1px solid;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.modal-body .madia-left .remove-cartItem {
+  position: relative;
+  right: 5%;
+  top: 40px;
+  font-size: 30px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.modal-body .madia-left .remove-cartItem:hover {
+  color: red;
+}
+.modal-body .cartUI {
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.modal-body .slCart input {
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid;
+  border-radius: 10px;
+  max-width: 100px;
+}
+.modal-body .slCart span {
+  font-size: 20px;
+}/*# sourceMappingURL=style.css.map */
