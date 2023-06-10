@@ -1,0 +1,41 @@
+.product {
+    padding: 100px 0;
+
+    #selectBrand {
+        padding: 5px 50px;
+        border-radius: 5px;
+    }
+
+    .card {
+        transform: translateY(0);
+        transition: all 0.5s;
+        cursor: pointer;
+        line-height: auto ;
+
+        .card__header__img {
+            width: 100%;
+            transition: all 0.5s;
+            margin-top: 20px;
+
+            &:hover {
+                transform: translateY(-20px);
+            }
+        }
+
+        .card-body {
+            .card-body-left {
+                p,h5 {
+                    &:hover {
+                        color: #d5562685;
+                    }
+                }
+            }
+        }
+    }
+
+    .card-footer {
+        &:hover {
+            box-shadow: inset 2px 3px 4px #00000061;
+        }
+    }
+}

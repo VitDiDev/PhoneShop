@@ -1,0 +1,25 @@
+.before__header {
+    max-height: 30px;
+    line-height: 30px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 10;
+
+    .bh__right {
+        ul{
+            list-style-type: none;
+
+        }
+        li>a {
+            color: white;
+            padding: 0 15px;
+            text-decoration: none;
+        }
+        .contact{
+            span{
+                padding: 0 10px;
+            }
+        }
+    }
+}
