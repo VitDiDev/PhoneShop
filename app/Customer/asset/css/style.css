@@ -141,3 +141,7 @@ header .nav-item #quantity {
 .modal-body .slCart span {
   font-size: 20px;
 }/*# sourceMappingURL=style.css.map */
+
+.py-2{
+  background-color:  rgb(4 117 30) !important;
+} 

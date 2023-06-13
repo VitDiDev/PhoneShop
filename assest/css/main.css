@@ -170,9 +170,12 @@ body {
       left: 30%;
     }
   }
+
+
 /* .............................................................................................................. */
 /* ADMIN PAGE */
 /* .............................................................................................................. */
+
 header {
   background-color:rgb(4 117 30);
 }
@@ -332,6 +335,13 @@ header .navbar .form-inline button i {
   color: #212124;
 }
 
+.phone_store{
+  margin-top: 22px;
+  font-size: 25px;
+  color: #f5f5f7;
+  font-weight: bolder;
+}
+
 @media screen and (max-width: 992px) {
   header .side-navbar {
     width: 600px;
@@ -353,6 +363,9 @@ header .navbar .form-inline button i {
     align-items: none;
   } */
 }
+
+    
+
 @media screen and (max-width: 992px) {
   header .side-navbar {
     width: 600px;
@@ -370,10 +383,11 @@ header .navbar .form-inline button i {
     padding: 5px 10px;
     font-size: 16px;
   }
+  }
   /* .cart-items .cart-item {
     align-items: none;
   } */
-}
+
 @media screen and (max-width: 768px) {
   header .side-navbar {
     width: 500px;
@@ -538,4 +552,15 @@ header .navbar .form-inline button i {
     font-size: 1rem;
   }
 }
+
+@media screen and (max-width: 992px){
+  .phone_store {
+    margin-top: 22px;
+    font-size: 15px;
+    color: #f5f5f7;
+    font-weight: bolder;
+    padding-right: 20px;
+}
+}
+
 /* .............................................................................................................. */
